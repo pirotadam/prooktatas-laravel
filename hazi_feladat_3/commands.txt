@@ -1,0 +1,2 @@
+docker build -t hazi_feladat_3 .
+docker run -d --name hazi_feladat_3_run -p 80:80 hazi_feladat_3
